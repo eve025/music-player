@@ -1,0 +1,64 @@
+<--!DOCTYPE html>
+<html><head>
+            <title>Music Player</title>
+         <style>
+             botton {
+                 background-color:rgba(255,255,255,0.5);
+                 border-radius:20px;
+                 padding:15px;text-align:center;
+                 width:80px;display:block;margin-left:auto;
+                 margin-right:auto;box-shadow:8px 8px 20px black;}
+              .center{text-align:center;}
+             #yeah{margin-bottom:14px;padding:42px;}
+             .divs{
+                 padding:10px;border:2px solid black;border-radius:15px;
+                 background-color:#ee1144;}
+             .name{
+                 border:2px solid black;padding:10px;text-shadow:2px 2px 6px black;
+                 background-color:#ee1144;}
+             img{
+                 background-color:#ffffff;display:block;margin-left:auto;
+                 margin-right:auto;box-shadow:10px 10px 20px black;
+                 padding:10px;border-radius:10px;}
+             section{
+                 width:100%;height:auto;border-radius:0 0 15px 15px;}
+             audio{
+                 border:2px 0 2px 0 solid black;background-color:#f1f1f1;
+                 vertical-align:2cm;width:70%;}
+             ol{list-style-type:upper-roman;background-color:rgba(255,255,255,0.5);}
+             li{padding:8px;border-bottom:2px solid black;
+             list-style:upper-roman inside url("https://img.icons8.com/carbon-copy/2x/apple-music.png");}
+         </style>
+    </head>
+    <body>
+        <article>
+            <section>
+            <div>
+                <p class="name">Dezeer free</p></div>
+                <div class="divs" id="yeah">
+            <img src="https://cdn.pixabay.com/photo/2020/07/25/21/55/guitar-5437933_960_720.png" width="120px" height="120px" type="img/png">
+                    <p class="center">14 canciones favoritas</p>
+                    <p class="center">By @User</p>
+            <botton class="center">Play</botton>
+                </div>
+                <div class="divs">
+                    <ol>
+                        <li><audio src="https://freepd.com/music/Amazing%20Grace.mp3" controls></audio></li>
+                        <li><audio src="https://freepd.com/music/Piano%20Magic%20Motive.mp3" controls></audio></li>
+                        <li><audio src="https://freepd.com/music/Nostalgic%20Piano.mp3" controls></audio></li>
+                        <li><audio src="https://freepd.com/music/Motions.mp3" controls></audio></li>
+                        <li><audio src="https://freepd.com/music/Motions.mp3" controls></audio></li>
+                        <li><audio src="https://freepd.com/music/Motions.mp3" controls></audio></li>
+                        <li><audio src="https://freepd.com/music/Nostalgic%20Piano.mp3" controls></audio></li>
+                        <li><audio src="https://freepd.com/music/Nostalgic%20Piano.mp3" controls></audio></li>
+                        <li><audio src="https://freepd.com/music/Amazing%20Grace.mp3" controls></audio></li>
+                        <li><audio src="https://freepd.com/music/Amazing%20Grace.mp3" controls></audio></li>
+                        <li><audio src="https://freepd.com/music/Piano%20Magic%20Motive.mp3" controls></audio></li>
+                        <li><audio src="https://freepd.com/music/Amazing%20Grace.mp3" controls></audio></li>
+                        <li><audio src="https://freepd.com/music/Nostalgic%20Piano.mp3" controls></audio></li>
+                        <li><audio src="https://freepd.com/music/Amazing%20Grace.mp3" controls></audio></li>
+                    </ol>
+                </div>
+            </section>
+        </article>
+</body></html>
